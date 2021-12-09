@@ -1,0 +1,99 @@
+body {
+  background: #0f2027; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0;
+  color: #ee8a62;
+  padding: 10%;
+}
+
+body img {
+  height: auto;
+  width: 500px;
+}
+
+.about_food {
+  text-align: center;
+  padding: 2%;
+}
+
+.heading h1 {
+  text-align: center;
+}
+
+th img {
+  height: auto;
+  width: 100px;
+  image-rendering: auto;
+}
+
+section.dry_food {
+  table-layout: fixed;
+  justify-content: center;
+  align-content: center;
+  padding-bottom: 5%;
+}
+
+td {
+  border: 2px solid #757575;
+  justify-content: space-between;
+  text-align: center;
+}
+
+th {
+  border: 2px solid #757575;
+  empty-cells: hide;
+  padding: 5px;
+}
+
+tr {
+  border: 1px solid #757575;
+  empty-cells: hide;
+  padding: 0;
+}
+
+h2 {
+  margin: 0;
+  padding-bottom: 2.5%;
+}
+
+td ul {
+  text-align: left;
+}
+
+/* align tables to the center of the screen */
+table {
+  margin-left: auto;
+  margin-right: auto;
+  border-spacing: 0.5px;
+  padding: 10px 10px 20px 20px;
+  border-collapse: collapse;
+  empty-cells: hide;
+}
+
+tr td th span {
+  align-items: center;
+  text-size-adjust: auto;
+}
+
+.conclusion {
+  padding: 5px 5px;
+}
+
+.conclusion h1 {
+  padding-top: 2.5%;
+  margin: 0;
+}
